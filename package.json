@@ -1,0 +1,27 @@
+{
+  "name": "webpack-inicial",
+  "version": "1.0.0",
+  "description": "Este es un cascaron de un proyecto de webpack",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack",
+    "start": "webpack-dev-server --open"
+  },
+  "author": "Lucas Rivas",
+  "license": "ISC",
+  "devDependencies": {
+    "copy-webpack-plugin": "^11.0.0",
+    "html-loader": "^4.2.0",
+    "html-webpack-plugin": "^5.5.1",
+    "mini-css-extract-plugin": "^2.7.5",
+    "webpack": "^5.82.1",
+    "webpack-cli": "^5.1.1",
+    "webpack-dev-server": "^4.15.0"
+  },
+  "dependencies": {
+    "-": "^0.0.1",
+    "css-loader": "^6.7.3",
+    "style-loader": "^3.3.2"
+  }
+}
